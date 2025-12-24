@@ -1,5 +1,5 @@
-const http = require('http');
-const fs = require('fs');
+import http from 'node:http';
+import fs from 'node:fs';
 
 function doOnRequest(request, response){
   // Send back a message saying "Welcome to Twitter"
